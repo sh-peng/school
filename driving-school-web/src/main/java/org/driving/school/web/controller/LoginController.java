@@ -54,7 +54,9 @@ public class LoginController {
 	}
 	
 	@RequestMapping("/index")
-	public String index(Model model) {
+	public String index(Model model,HttpServletRequest request, HttpServletResponse response) {
+		SchoolUser user = (SchoolUser) SessionUtil.getSessionUtil(request, response, Constants.USER_SESSION);
+		model.addAttribute("user", user);
 		return "/index";
 	}
 	

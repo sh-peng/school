@@ -2,10 +2,10 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link href="static/h-ui/css/H-ui.min.css" rel="stylesheet" type="text/css" />
-<link href="static/h-ui.admin/css/H-ui.login.css" rel="stylesheet" type="text/css" />
-<link href="static/h-ui.admin/css/style.css" rel="stylesheet" type="text/css" />
-<link href="lib/Hui-iconfont/1.0.8/iconfont.css" rel="stylesheet" type="text/css" />
+<link href="static/static/h-ui/css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="static/static/h-ui.admin/css/H-ui.login.css" rel="stylesheet" type="text/css" />
+<link href="static/static/h-ui.admin/css/style.css" rel="stylesheet" type="text/css" />
+<link href="static/lib/Hui-iconfont/1.0.8/iconfont.css" rel="stylesheet" type="text/css" />
 <title>后台登录</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
 <!-- <div class="header"></div> -->
 <div class="loginWraper">
   <div id="loginform" class="loginBox">
-    <form class="form form-horizontal" action="/driving-school/loginAction" method="post">
+    <form class="form form-horizontal" method="post">
       <div class="row cl">
         <label class="form-label col-xs-3"><i class="Hui-iconfont">&#xe60d;</i></label>
         <div class="formControls col-xs-8">
@@ -33,7 +33,7 @@
       </div> -->
       <div class="row cl">
         <div class="formControls col-xs-8 col-xs-offset-3">
-          <label for="online" id="errorMsg"  style="color:red"></label>
+          <label for="online" id="errorMsg"  style="color:red;"></label>
         </div>
       </div>
       <div class="row cl">
@@ -46,8 +46,8 @@
   </div>
 </div>
 <div class="footer">Copyright 海正驾校  v1.0</div>
-<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="static/h-ui/js/H-ui.min.js"></script>
-<script type="text/javascript" src="js/user/login.js"></script>
+<script type="text/javascript" src="static/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="static/static/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="static/js/user/login.js"></script>
 </body>
 </html>
