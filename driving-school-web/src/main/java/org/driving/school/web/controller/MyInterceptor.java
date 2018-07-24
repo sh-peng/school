@@ -31,7 +31,7 @@ public class MyInterceptor implements HandlerInterceptor {
             response.sendRedirect(request.getContextPath()+"/login");
             return false;
         }else{
-            session.setAttribute(Constants.USER_SESSION, session.getAttribute(Constants.USER_SESSION));
+            //session.setAttribute(Constants.USER_SESSION, session.getAttribute(Constants.USER_SESSION));
             return true;
         }
     }
