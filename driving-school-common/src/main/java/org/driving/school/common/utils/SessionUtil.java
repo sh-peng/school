@@ -20,7 +20,7 @@ public class SessionUtil {
 	}
 	
 	public static void setSessionUtil(HttpServletRequest request, HttpServletResponse response,String key,Object value){
-		request.getSession().setMaxInactiveInterval(60);
+		request.getSession().setMaxInactiveInterval(60*60);
 		request.getSession().setAttribute(key, value);
 	}
 	
