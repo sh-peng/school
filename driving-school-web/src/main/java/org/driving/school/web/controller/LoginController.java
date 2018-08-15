@@ -20,10 +20,10 @@ public class LoginController {
 	@Autowired
 	private SchoolUserService schoolUserService;
 	
-	@RequestMapping("/")
-	public String loginIndex(){
-		return "/login";
-	}
+//	@RequestMapping("/")
+//	public String loginIndex(){
+//		return "/login";
+//	}
 	
 	@RequestMapping("/login")
 	public String userLogin(Model model) {
