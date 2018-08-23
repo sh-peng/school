@@ -29,21 +29,19 @@ public class WebMvcConfig implements WebMvcConfigurer {
     	registry.addViewController("/login").setViewName("login");
 	}
 
-	@Override
-    public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/templates/**").addResourceLocations(ResourceUtils.CLASSPATH_URL_PREFIX+"/templates/");  
-        registry.addResourceHandler("/static/**").addResourceLocations(ResourceUtils.CLASSPATH_URL_PREFIX+"/static/"); 
-    }
+//	@Override
+//    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+//        registry.addResourceHandler("/templates/**").addResourceLocations(ResourceUtils.CLASSPATH_URL_PREFIX+"/templates/");  
+//        registry.addResourceHandler("/static/**").addResourceLocations(ResourceUtils.CLASSPATH_URL_PREFIX+"/static/"); 
+//    }
     
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        //拦截规则：除了login，其他都拦截判断
-        registry.addInterceptor(getMyInterceptor())
-        .addPathPatterns("/**")
-//        .excludePathPatterns("/login","/loginAction","/static/**","/js/**","/css/**","lib/**");
-//        .excludePathPatterns("/login","/loginAction","/static/**");
-       //访问index.html ,/ ,loginAction(登录请求) ,login登录页面请求 —  都不拦截
-        .excludePathPatterns("/index.html","/loginAction","/","/login");
+        //拦截规则:除了 index.html , / , /loginAction , /login , /static/** , /js/** , /css/** ,/lib/** ,其他都拦截判断
+    	// addPathPatterns("/**") 拦截所有
+        registry.addInterceptor(getMyInterceptor()).addPathPatterns("/**")
+        //以下不拦截
+        .excludePathPatterns("/index.html","/","/loginAction","/login","/static/**","/js/**","/css/**","lib/**");
     }
 
     

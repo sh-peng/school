@@ -2,10 +2,11 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link href="static/static/h-ui/css/H-ui.min.css" rel="stylesheet" type="text/css" />
-<link href="static/static/h-ui.admin/css/H-ui.login.css" rel="stylesheet" type="text/css" />
-<link href="static/static/h-ui.admin/css/style.css" rel="stylesheet" type="text/css" />
-<link href="static/lib/Hui-iconfont/1.0.8/iconfont.css" rel="stylesheet" type="text/css" />
+
+<link href="static/h-ui/css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="static/h-ui.admin/css/H-ui.login.css" rel="stylesheet" type="text/css" />
+<link href="static/h-ui.admin/css/style.css" rel="stylesheet" type="text/css" />
+<link href="lib/Hui-iconfont/1.0.8/iconfont.css" rel="stylesheet" type="text/css" />
 <title>后台登录</title>
 </head>
 <body>
@@ -46,8 +47,8 @@
   </div>
 </div>
 <div class="footer">Copyright 海正驾校  v1.0</div>
-<script type="text/javascript" src="static/js/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="static/static/h-ui/js/H-ui.min.js"></script>
-<script type="text/javascript" src="static/js/user/login.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="static/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="js/user/login.js"></script>
 </body>
 </html>
