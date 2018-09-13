@@ -28,6 +28,8 @@ public class MyInterceptor implements HandlerInterceptor {
         //判断用户是否存在，不存在就跳转到登录界面
         if(session.getAttribute(Constants.USER_SESSION) == null){
             logger.info("------:跳转到login页面！");
+//            request.setAttribute("msg", "请先登录！");
+//            request.getRequestDispatcher("/login").forward(request, response);
             response.sendRedirect(request.getContextPath()+"/login");
             return false;
         }else{

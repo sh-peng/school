@@ -30,15 +30,16 @@
               </exclusion>
         </exclusions>-->
     </dependency>
+    <!-- Freemarker模版引擎 -->
     <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-freemarker</artifactId>
     </dependency>
-    <!-- 识别templates下面的静态资源文件 -->
-    <dependency>
+    <!--springboot推荐使用的末班引擎 -->
+    <!-- <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-thymeleaf</artifactId>
-    </dependency>
+    </dependency> -->
      <!-- Spring Boot log4j依赖 
 	<dependency>
 	    <groupId>org.springframework.boot</groupId>

@@ -2,11 +2,11 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="static/static/h-ui/css/H-ui.min.css" />
-<link rel="stylesheet" type="text/css" href="static/static/h-ui.admin/css/H-ui.admin.css" />
-<link rel="stylesheet" type="text/css" href="static/lib/Hui-iconfont/1.0.8/iconfont.css" />
-<link rel="stylesheet" type="text/css" href="static/static/h-ui.admin/skin/default/skin.css" id="skin" />
-<link rel="stylesheet" type="text/css" href="static/static/h-ui.admin/css/style.css" />
+<link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/style.css" />
 <title>我的桌面</title>
 </head>
 <body>
@@ -177,12 +177,12 @@
 	<div class="container">
 		<p>感谢CCTV Spring boot<br>
 			Copyright &copy;2018-2022<br>
-			本后台系统由<a href="" target="_blank" title=""></a>小鹏提供技术支持</p>
-			<p>More Templates <a href="http://www.xiaopeng.com/" target="_blank" title="上海之家">上海之家</a> - Collect from <a href="http://www.cssmoban.com/" title="上海之家" target="_blank">上海之家</a></p>
+			本后台系统由<a href="" target="_blank" title=""></a>小鹏独家提供技术支持</p>
+			<p>More Templates <a href="http://www.xiaopeng.com/" target="_blank" title="魔都之家">魔都之家</a> - Collect from <a href="http://www.cssmoban.com/" title="魔都之家" target="_blank">魔都之家</a></p>
 	</div>
 </footer>
-<script type="text/javascript" src="static/lib/jquery/1.9.1/jquery.min.js"></script> 
-<script type="text/javascript" src="static/static/h-ui/js/H-ui.min.js"></script> 
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="static/h-ui/js/H-ui.min.js"></script> 
 
 </body>
 </html>
