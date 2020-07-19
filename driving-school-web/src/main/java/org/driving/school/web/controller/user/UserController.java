@@ -28,7 +28,17 @@ public class UserController {
 	
 	@Autowired
 	private SchoolUserService schoolUserService;
-	
+
+	/**
+	 * @anthor pcyang
+	 * @param model
+	 * @param pageNum
+	 * @param pageSize
+	 * @param record
+	 * @param request
+	 * @param response
+	 * @return
+	 */
 	@RequestMapping("/queryUserInfoList")
 	public String queryUserInfoList(Model model,Integer pageNum,Integer pageSize,SchoolUser record ,HttpServletRequest request ,HttpServletResponse response) {
 		SchoolUser user = (SchoolUser) SessionUtil.getSessionUtil(request, response, Constants.USER_SESSION);
