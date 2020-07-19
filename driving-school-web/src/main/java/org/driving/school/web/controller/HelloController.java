@@ -6,7 +6,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class HelloController {
-	
+
+	/**
+	 * git
+	 * @param model
+	 * @return
+	 */
 	@RequestMapping("/webhello")
 	public String hello(Model model){
 		model.addAttribute("userName", "杨鹏程");
