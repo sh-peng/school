@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloController {
 
 	/**
-	 * git
+	 * @anthor pcyang
 	 * @param model
 	 * @return
 	 */
